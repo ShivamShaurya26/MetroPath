@@ -2,7 +2,6 @@
 #include<string.h>
 #include<climits>
 using namespace std;
-#define INF 1000
 int mindistance(int distance[],bool stat[]){
 	int minimum=INT_MAX,ind;
 	for(int k=0;k<56;k++){
